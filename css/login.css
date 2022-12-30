@@ -1,0 +1,41 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #934040;
+    background-size: cover;
+}
+
+
+label {
+    color: #ffffff;
+}
+
+input {
+    padding:5px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.6);
+}
+
+/* .input {
+    padding:10px;
+    border-radius:10px;
+}
+
+.border-customized-input {
+    border: 2px solid #eee;
+}
+
+.border-removed-input {
+    border: 0;
+} */
+
+.centered {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    width: 10%;
+    transform: translate(-50%, -50%);
+    background-color: var(--colorbox);
+  }
